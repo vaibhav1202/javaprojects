@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="378.0" prefWidth="521.0" style="-fx-background-image: url(&quot;images/login.jpg&quot;);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fitness_club.LoginFXMLController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="378.0" opacity="0.7" stroke="BLACK" strokeType="INSIDE" width="521.0" />
+      <TextField fx:id="userid" layoutX="251.0" layoutY="174.0" prefHeight="25.0" prefWidth="230.0" />
+      <Label layoutX="59.0" layoutY="174.0" prefHeight="25.0" prefWidth="105.0" text="User ID" textFill="#3c3030">
+         <font>
+            <Font name="Times New Roman Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="234.0" prefHeight="30.0" prefWidth="119.0" text="Password" textFill="#2f2525">
+         <font>
+            <Font name="Times New Roman Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="182.0" layoutY="106.0" prefHeight="30.0" prefWidth="139.0" text="User Login">
+         <font>
+            <Font name="Times New Roman Bold" size="27.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#a19191" />
+                  <Stop color="#141111" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label alignment="CENTER" layoutX="174.0" layoutY="39.0" prefHeight="30.0" prefWidth="158.0" text="Fitness Club">
+         <font>
+            <Font name="Times New Roman Bold" size="27.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#c3bfbf" />
+                  <Stop color="#170f0f" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <Button fx:id="btnlogin" layoutX="208.0" layoutY="278.0" mnemonicParsing="false" onAction="#he" prefHeight="37.0" prefWidth="87.0" text="Login">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnexit" layoutX="378.0" layoutY="315.0" mnemonicParsing="false" onAction="#he" prefHeight="37.0" prefWidth="87.0" text="Exit">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="pass" layoutX="254.0" layoutY="237.0" onAction="#he" prefHeight="25.0" prefWidth="224.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #263238;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fitness_club.SearchFXMLController">
+   <children>
+      <TableView fx:id="tblList" layoutX="14.0" layoutY="51.0" prefHeight="304.0" prefWidth="577.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnUpdate" layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#he" text="Update">
+         <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="btnDel" layoutX="89.0" layoutY="361.0" mnemonicParsing="false" onAction="#he" prefHeight="17.0" prefWidth="67.0" text="Delete">
+         <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="btnBack" layoutX="515.0" layoutY="361.0" mnemonicParsing="false" onAction="#he" prefHeight="25.0" prefWidth="61.0" text="&lt;--">
+         <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+         </font></Button>
+      <TextField fx:id="txtSi" layoutX="170.0" layoutY="14.0" onKeyReleased="#kr" prefHeight="25.0" prefWidth="419.0" promptText="Search" />
+      <ComboBox fx:id="cmbSc" layoutX="14.0" layoutY="14.0" onAction="#cmbCh" prefWidth="150.0" />
+   </children>
+</AnchorPane>

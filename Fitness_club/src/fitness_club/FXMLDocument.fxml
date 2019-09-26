@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="378.0" prefWidth="521.0" style="-fx-background-image: url(&quot;images/screenshot.png&quot;);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fitness_club.FXMLDocumentController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="378.0" opacity="0.8" stroke="BLACK" strokeType="INSIDE" width="521.0" />
+        <Label fx:id="label" layoutX="114.0" layoutY="39.0" minHeight="16" minWidth="69" prefHeight="65.0" prefWidth="293.0" text="Fitness Club">
+         <font>
+            <Font name="Comic Sans MS" size="50.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#ffd7d7" />
+                  <Stop color="#363131" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill></Label>
+      <Button fx:id="btnexit" layoutX="329.0" layoutY="287.0" mnemonicParsing="false" onAction="#he" prefHeight="65.0" prefWidth="147.0" text="EXIT">
+         <font>
+            <Font name="Algerian" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDelete" layoutX="46.0" layoutY="287.0" mnemonicParsing="false" onAction="#he" prefHeight="65.0" prefWidth="147.0" text="DELETE">
+         <font>
+            <Font name="Algerian" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSearch" alignment="CENTER" layoutX="329.0" layoutY="189.0" mnemonicParsing="false" onAction="#he" prefHeight="65.0" prefWidth="147.0" text="SEARCH" textAlignment="CENTER" textFill="#2c2626">
+         <font>
+            <Font name="Algerian" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAdd" layoutX="46.0" layoutY="189.0" mnemonicParsing="false" onAction="#he" prefHeight="65.0" prefWidth="147.0" text="ADD" textFill="#0a0606">
+         <font>
+            <Font name="Algerian" size="22.0" />
+         </font>
+      </Button>
+      <Label layoutX="148.0" layoutY="118.0" prefHeight="26.0" prefWidth="211.0" text="(For Gym Personnels only)" textFill="#222020">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
