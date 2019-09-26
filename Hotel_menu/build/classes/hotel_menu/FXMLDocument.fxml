@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="378.0" prefWidth="521.0" style="-fx-background-image: url(&quot;Images/Food.jpg&quot;);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hotel_menu.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnAdd" layoutX="39.0" layoutY="181.0" mnemonicParsing="false" onAction="#he" prefHeight="65.0" prefWidth="147.0" text="ADD" textFill="#0a0606">
+         <font>
+            <Font name="Algerian" size="22.0" />
+         </font></Button>
+      <Button fx:id="btnSearch" alignment="CENTER" layoutX="322.0" layoutY="181.0" mnemonicParsing="false" onAction="#he" prefHeight="65.0" prefWidth="147.0" text="SEARCH" textAlignment="CENTER" textFill="#2c2626">
+         <font>
+            <Font name="Algerian" size="22.0" />
+         </font></Button>
+      <Button fx:id="btnDelete" alignment="CENTER" layoutX="39.0" layoutY="279.0" mnemonicParsing="false" onAction="#he" prefHeight="65.0" prefWidth="147.0" text="DELETE" textAlignment="CENTER" textFill="#2c2626">
+         <font>
+            <Font name="Algerian" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnexit" alignment="CENTER" layoutX="322.0" layoutY="279.0" mnemonicParsing="false" onAction="#he" prefHeight="65.0" prefWidth="147.0" text="EXIT" textAlignment="CENTER" textFill="#2c2626">
+         <font>
+            <Font name="Algerian" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
